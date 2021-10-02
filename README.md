@@ -13,7 +13,10 @@ Module 15
 
 ![Lot Summary](https://github.com/sbull32/MechaCar_Statistical_Analysis/blob/main/lot_summary_df.png)
 
-## T Test on Suspension Coils
+## T-Tests on Suspension Coils
 Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar.
 
-![T Test](https://github.com/sbull32/MechaCar_Statistical_Analysis/blob/main/ttest_popvssample.png)
+![T-Test](https://github.com/sbull32/MechaCar_Statistical_Analysis/blob/main/ttest_samplevspop.png)
+
+
+![Lot T-tests](https://github.com/sbull32/MechaCar_Statistical_Analysis/blob/main/ttest_lotsvspop.png)

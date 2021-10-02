@@ -1,0 +1,8 @@
+library(dplyr)
+MechaCar_df <- read.csv(file='MechaCar_mpg.csv', check.names = F, stringsAsFactors = F)
+lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD, data=MechaCar_df)
+summary(lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD, data=MechaCar_df))
+suspension_coil_table <- read.csv(file='Suspension_Coil.csv', check.names = F, stringsAsFactors = F)
+library(jsonlite)
+library(tidyverse)
+total_summary_df <- suspension_coil_table %>% summarize(Mean=mean(PSI), Median=median(PSI), Variance=var(PSI), Std_Dev=sd(PSI), .groups = 'keep')

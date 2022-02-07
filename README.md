@@ -1,5 +1,5 @@
 # MechaCar_Statistical_Analysis
-Module 15
+Statistical Analysis and Summary Statistics
 
 ## Linear Regression to Predict MPG
 Using linear regression modules we were able to determine that vehicle length and ground clearance provided a non-random amount of variance to the mpg values in our dataset, in other words they had the most significant impact on a vehicles mpg across the variables we used. In addition the y-intercept coefficient was statistically significant signaling we may need to include other variables or scale our current variables in order to most accurately predict our mpg.
